@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<input type="checkbox" id="checkbox">
+
+
+	<div class="body">
+
+		<nav class="side-bar">
+			<div class="user-p">
+				<img src="img/user.png" alt="profilepicture" style="color: white;">
+			</div>
+			
+
+			<!-- Admin Navigation Bar -->
+            <ul id="navList">
+				<li>
+					<a href="dashboard.html">
+						<i class="fa fa-tachometer" aria-hidden="true"></i>
+						<span>Dashboard</span>
+					</a>
+				</li>
+				<li>
+					<a href="user.php">
+						<i class="fa fa-users" aria-hidden="true"></i>
+						<span>Manage Users</span>
+					</a>
+				</li>
+				<li>
+					<a href="create_task.php">
+						<i class="fa fa-plus" aria-hidden="true"></i>
+						<span>Create Task</span>
+					</a>
+				</li>
+				<li>
+					<a href="tasks.php">
+						<i class="fa fa-tasks" aria-hidden="true"></i>
+						<span>All Tasks</span>
+					</a>
+				</li>
+				<li>
+					<a href="loginpage.html">
+						<i class="fa fa-sign-out" aria-hidden="true"></i>
+						<span>Logout</span>
+					</a>
+				</li>
+			</ul>
+		<?php } ?>
+		</nav> 
+
+		<section class="section-1">
+			<div class="dashboard">
+				<div class="dashboard-item">
+					<i class="fa fa-users"></i>
+					<span>Employee</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-tasks"></i>
+					<span>All Tasks</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-window-close-o"></i>
+					<span>Overdue</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-clock-o"></i>
+					<span> No Deadline</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-exclamation-triangle"></i>
+					<span>Due Today</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-bell"></i>
+					<span>Notifications</span>
+				</div>
+			</div>
+
+			<div class="dashboard">
+				<div class="dashboard-item">
+					<i class="fa fa-tasks"></i>
+					<span>My Tasks</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-window-close-o"></i>
+					<span>Overdue</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-clock-o"></i>
+					<span>No Deadline</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-square-o"></i>
+					<span>Pending</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-spinner"></i>
+					<span>In progress</span>
+				</div>
+				<div class="dashboard-item">
+					<i class="fa fa-check-square-o"></i>
+					<span>Completed</span>
+				</div>
+			</div>
+		</section>
+	</div>
+
+	
+</body>
+</html>
